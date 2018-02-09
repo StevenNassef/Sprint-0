@@ -1,0 +1,37 @@
+cd D:
+cd GUC
+cd "Semester 6"
+cd "CSEN 603 Software Engineering"
+cd Project
+cd "Sprint 0"
+cd Sprint-0.Local-repo
+git init
+git status
+git add FirstFile.txt
+git add SecondFile.txt
+git add ThirdFile.txt
+git status
+rm -f SecondFile.txt
+git status
+git checkout SecondFile.txt
+git status
+git commit -m "FirstFile.txt contains section 1.1 , SecondFile.txt contains section 3.1 , ThirdFile.txt contains section 5.1"
+git status
+git remote add Sprint-0 https://github.com/StevenNassef/Sprint-0.git
+git push -u Sprint-0 master
+touch README.md
+git branch ReadMe
+git checkout ReadMe
+git add README.md
+git commit -m "README.md file for github repo"
+git checkout master
+git merge ReadMe
+git status
+git add AllMyCommands.txt
+git commit -m "AllMyCommands.txt"
+
+
+
+
+
+
